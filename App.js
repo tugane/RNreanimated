@@ -1,10 +1,10 @@
 import { StyleSheet, View } from "react-native";
-import AppPanGestureHandler from "./app/components/PanGestureHandler";
+import InterpolateScrollView from "./app/components/InterpolateScrollView";
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <AppPanGestureHandler />
+      <InterpolateScrollView />
     </View>
   );
 }
@@ -13,7 +13,5 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: "#fff",
-    alignItems: "center",
-    justifyContent: "center",
   },
 });
